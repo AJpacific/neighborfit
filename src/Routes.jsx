@@ -3,15 +3,15 @@ import { BrowserRouter, Routes as RouterRoutes, Route } from "react-router-dom";
 import ScrollToTop from "components/ScrollToTop";
 import ErrorBoundary from "components/ErrorBoundary";
 // Add your imports here
-import UserRegistration from "pages/user-registration";
-import UserLogin from "pages/user-login";
-import CreateActivity from "pages/create-activity";
-import ActivitySearchDiscovery from "pages/activity-search-discovery";
-import ActivityDetailsRegistration from "pages/activity-details-registration";
-import CommunityDashboard from "pages/community-dashboard";
-import MessagesChat from "pages/messages-chat";
-import UserProfile from "pages/user-profile";
-import NotFound from "pages/NotFound";
+import UserRegistration from "./pages/user-registration";
+import UserLogin from "./pages/user-login";
+import CreateActivity from "./pages/create-activity";
+import ActivitySearchDiscovery from "./pages/activity-search-discovery";
+import ActivityDetailsRegistration from "./pages/activity-details-registration";
+import CommunityDashboard from "./pages/community-dashboard";
+import MessagesChat from "./pages/messages-chat";
+import UserProfile from "./pages/user-profile";
+import NotFound from "./pages/NotFound";
 
 const Routes = () => {
   return (
